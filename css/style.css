@@ -31,12 +31,12 @@ body {
     margin: 0;
 }
 
-h2 {
+h1 {
     text-align: center;
     color: black;
 }
 
-h2::after {
+h1::after {
     content: '';
     display: block;
     width: 90px;
