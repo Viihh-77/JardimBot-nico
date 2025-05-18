@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.ImgBanner {
+    position: relative;
+    background-image: url("/assets/pexels-juliazolotova-6514452.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(20, 83, 45, 0.3);
+    padding: 100px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.banner h1 {
+    color: #fff;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 90px;
+    height: 5px;
+    background-color: green;
+    margin: 10px auto 0;
+}
+
+p {
+    font-size: 20px;
+    margin: 30px auto;
+    text-align: center;
+    width: 1500px;
+}
+
+img {
+    width: 300px;
+    margin: 60px auto;
+}
+
+.imagens {
+    text-align: center;
+}
+
+.imagens img {
+    margin: 60px;
+    width: 350px;
+    height: 500px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #14532d;
+    display: block;
+    font-size: 30px;
+    margin: 20px auto;
+    background-color: #F0F0F0;
+    padding: 20px;
+    font-weight: 400;
+    width: 1500px;
+}
+
+.botão a:hover {
+    transform: scale(1.1);
+    background-color: #14532d;
+    color: white;
+}
