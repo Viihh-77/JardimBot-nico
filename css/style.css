@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -20,33 +21,29 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(20, 83, 45, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 100px 20px;
     box-sizing: border-box;
     text-align: center;
 }
 
-.banner h1 {
-    color: #fff;
-    margin: 0;
-}
-
-h1 {
+.tituloInicial {
+    color: #D4A017;
     text-align: center;
-    color: black;
 }
 
-h1::after {
-    content: '';
-    display: block;
-    width: 90px;
-    height: 5px;
-    background-color: green;
-    margin: 10px auto 0;
+.tituloMedicinais {
+    color: green;
+    text-align: center;
+}
+
+.tituloOrnamentais {
+    color: purple;
+    text-align: center;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     margin: 30px auto;
     text-align: center;
     width: 1500px;
@@ -67,10 +64,10 @@ img {
     height: 500px;
 }
 
-a {
+.botãoInicial a {
     text-decoration: none;
     text-align: center;
-    color: #14532d;
+    color: darkorange;
     display: block;
     font-size: 30px;
     margin: 20px auto;
@@ -80,8 +77,46 @@ a {
     width: 1500px;
 }
 
-.botão a:hover {
+.botãoInicial a:hover {
     transform: scale(1.1);
-    background-color: #14532d;
+    background-color: darkorange;
+    color: white;
+}
+
+.medicinaisVoltar a {
+    text-decoration: none;
+    text-align: center;
+    color: darkorange;
+    display: block;
+    font-size: 30px;
+    margin: 20px auto;
+    background-color: #F0F0F0;
+    padding: 20px;
+    font-weight: 400;
+    width: 1500px;
+}
+
+.medicinaisVoltar a:hover {
+    transform: scale(1.1);
+    background-color: darkorange;
+    color: white;
+}
+
+.voltarOrnamentais a {
+    text-decoration: none;
+    text-align: center;
+    color: darkorange;
+    display: block;
+    font-size: 30px;
+    margin: 20px auto;
+    background-color: #F0F0F0;
+    padding: 20px;
+    font-weight: 400;
+    width: 1500px;
+}
+
+.voltarOrnamentais a:hover {
+    transform: scale(1.1);
+    background-color: darkorange;
     color: white;
 }
